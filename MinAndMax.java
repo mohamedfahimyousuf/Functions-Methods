@@ -16,6 +16,7 @@ class MinAndMax{
 
         int maximum = max(num1, num2, num3);
         System.out.println("Maximum Number: "+maximum);
+        sc.close();
 
     }
 
