@@ -1,7 +1,7 @@
 import java.util.*;
 public class SumOfNaturalNumbers {
 
-    public static int sumOfNaturalNumber(int n) {
+    public static int sumOfNatural(int n) {
         return (n * (n + 1)) / 2; 
     }
 
@@ -9,7 +9,7 @@ public class SumOfNaturalNumbers {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number: ");
         int n = sc.nextInt();
-        int sum = sumOfNaturalNumber(n);
+        int sum = sumOfNatural(n);
         System.out.println("The sum of the first " + n + " natural numbers is: " + sum);
     }
 }
