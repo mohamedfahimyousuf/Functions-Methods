@@ -1,4 +1,4 @@
-Java Programs for Methods
+Java Programs for Methods:
 
 1. Define two methods to print the maximum and the minimum number respectively among three numbers entered by the user.
 2. Define a program to find out whether a given number is even or odd.
@@ -27,5 +27,3 @@ Java Programs for Methods
 11. Write a function to check if a given triplet is a Pythagorean triplet or not. (A Pythagorean triplet is when the sum of the square of two numbers is equal to the square of the third number).
 12. Write a function that returns all prime numbers between two given numbers.
 13. Write a function that returns the sum of first n natural numbers.
-
-
