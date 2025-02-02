@@ -8,12 +8,12 @@ public class productofnum {
         int num1 = sc.nextInt();
         System.out.println("Enter Number 2: ");
         int num2 = sc.nextInt();
-        int product = product(num1, num2);
+        int product = productnum(num1, num2);
         System.out.println("The Product of Two Number is: "+product);
         sc.close();
     }
 
-    static int product(int a , int b){
+    static int productnum(int a , int b){
         return a*b;
     }
     
