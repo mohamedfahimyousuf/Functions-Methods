@@ -8,6 +8,7 @@ Java Programs for Methods:
 6. Write a program to print the circumference and area of a circle of radius entered by user by defining your own method.
 7. Define a method to find out if a number is prime or not.
 8. Write a program that will ask the user to enter his/her marks (out of 100). Define a method that will display grades according to the marks entered as below:
+
     Marks        Grade 
     91-100         AA 
     81-90          AB 
@@ -15,15 +16,18 @@ Java Programs for Methods:
     61-70          BC 
     51-60          CD 
     41-50          DD 
-    <=40          Fail 
-9. Write a program to print the factorial of a number by defining a method named 'Factorial'. Factorial of any number n is represented by n! and is equal to 1 * 2 * 3 * .... * (n-1) *n. E.g.-
+    <=40          Fail
+   
+10. Write a program to print the factorial of a number by defining a method named 'Factorial'. Factorial of any number n is represented by n! and is equal to 1 * 2 * 3 * .... * (n-1) *n. E.g.-
+
     4! = 1 * 2 * 3 * 4 = 24 
     3! = 3 * 2 * 1 = 6 
     2! = 2 * 1 = 2 
     Also, 
     1! = 1 
     0! = 1
-10. Write a function to find if a number is a palindrome or not. Take number as parameter.
-11. Write a function to check if a given triplet is a Pythagorean triplet or not. (A Pythagorean triplet is when the sum of the square of two numbers is equal to the square of the third number).
-12. Write a function that returns all prime numbers between two given numbers.
-13. Write a function that returns the sum of first n natural numbers.
+    
+12. Write a function to find if a number is a palindrome or not. Take number as parameter.
+13. Write a function to check if a given triplet is a Pythagorean triplet or not. (A Pythagorean triplet is when the sum of the square of two numbers is equal to the square of the third number).
+14. Write a function that returns all prime numbers between two given numbers.
+15. Write a function that returns the sum of first n natural numbers.
