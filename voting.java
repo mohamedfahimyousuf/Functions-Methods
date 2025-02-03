@@ -5,7 +5,7 @@ class voting{
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Age: ");
         int age = sc.nextInt();
-        if(isEligible(age)){
+        if(isEligibleOrNot(age)){
             System.out.println("The Person is eligible to vote");
         }
         else{
@@ -13,7 +13,7 @@ class voting{
         }
     }
 
-    static boolean isEligible(int age){
+    static boolean isEligibleOrNot(int age){
         if(age<18){
             return false;
         }
