@@ -4,14 +4,14 @@ public class CircumferenceAndArea {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Radius: ");
         Double radius = sc.nextDouble();
-        Double circumference = circumference(radius);
+        Double circumference = circumferenceOfCircle(radius);
         Double area = area(radius);
         System.out.printf("The Circumference of Circle is: %.2f\n",circumference);
         System.out.printf("The area of circle is: %.2f",area);
         sc.close();
     }
 
-    public static Double circumference(Double radius){
+    public static Double circumferenceOfCircle(Double radius){
         return 2*Math.PI*radius;
     }
 
