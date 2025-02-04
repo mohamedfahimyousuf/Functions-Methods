@@ -5,10 +5,10 @@ public class Grades
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Marks (out of 100): ");
 		int marks = sc.nextInt();
-		grades(marks);
+		gradesOfStudents(marks);
 		sc.close();
 	}
-	static void grades(int marks){
+	static void gradesOfStudents(int marks){
 	    if(marks > 100){
 	        System.out.println("Enter the marks below 100");
 	    }
