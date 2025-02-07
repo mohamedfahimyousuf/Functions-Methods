@@ -1,7 +1,7 @@
 import java.util.*;
 class PrimeNum2{
     
-    static boolean isprime(int n){
+    static boolean isprimenum(int n){
         
         if(n<=1){
             return false;
@@ -15,7 +15,7 @@ class PrimeNum2{
     }
     static void primenum(int start, int end){
         for(int i = start;i<=end;i++){
-            if(isprime(i)){
+            if(isprimenum(i)){
                 System.out.println(i);
             }
         }
