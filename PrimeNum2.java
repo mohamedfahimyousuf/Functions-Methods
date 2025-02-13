@@ -23,9 +23,9 @@ class PrimeNum2{
     
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the Starting Number: ");
+        System.out.println("Enter the Starting Number : ");
         int start = sc.nextInt();
-        System.out.println("Enter the Ending Number: ");
+        System.out.println("Enter the Ending Number : ");
         int end = sc.nextInt();
         System.out.println("Prime Numbers between "+start+"to "+end+" are: ");
         primenum(start,end);
