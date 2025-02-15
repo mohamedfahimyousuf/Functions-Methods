@@ -9,7 +9,7 @@ public class productofnum {
         System.out.println("Enter Number 2: ");
         int num2 = sc.nextInt();
         int product = product(num1, num2);
-        System.out.println("The Product of Two Number is: "+product);
+        System.out.println("The Product of Two Number is : "+product);
         sc.close();
     }
 
