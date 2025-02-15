@@ -12,10 +12,10 @@ class MinAndMax{
         int num3 = sc.nextInt();
 
         int minimum = min(num1, num2, num3);
-        System.out.println("Minimum Number: "+minimum);
+        System.out.println("Minimum Number : "+minimum);
 
         int maximum = max(num1, num2, num3);
-        System.out.println("Maximum Number: "+maximum);
+        System.out.println("Maximum Number : "+maximum);
         sc.close();
 
     }
