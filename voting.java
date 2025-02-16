@@ -3,7 +3,7 @@ import java.util.*;
 class voting{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the Age: ");
+        System.out.println("Enter the Age : ");
         int age = sc.nextInt();
         if(isEligibleOrNot(age)){
             System.out.println("The Person is eligible to vote");
