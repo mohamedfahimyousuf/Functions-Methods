@@ -2,7 +2,7 @@ import java.util.*;
 public class CircumferenceAndArea {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter Radius: ");
+        System.out.print("Enter Radius : ");
         Double radius = sc.nextDouble();
         Double circumference = circumferenceOfCircle(radius);
         Double area = area(radius);
