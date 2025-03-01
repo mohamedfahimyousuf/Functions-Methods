@@ -3,7 +3,7 @@ public class Grades
 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the Marks (out of 100): ");
+		System.out.println("Enter the Marks (out of 100) : ");
 		int marks = sc.nextInt();
 		gradesOfStudents(marks);
 		sc.close();
