@@ -5,7 +5,7 @@ class FactorialNum{
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter a number :");
     int num = sc.nextInt();
-    System.out.println("Factorial of "+num+" is: "+factorial(num));
+    System.out.println("Factorial of "+num+" is : "+factorial(num));
     sc.close();
     }
     static int factorial(int num){
